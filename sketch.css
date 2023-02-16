@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    background: linear-gradient(aqua,blue);
+}
+.container{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    border: 10px solid white;
+}
+.button{
+    margin-top: 100px;
+    margin-left: 620px;
+    display: flex;
+    gap: 20px;
+}
+.ask{
+    height: 50px;
+    width: 200px;
+    font-size: 1.4em;
+    border-radius: 10px;
+    background: linear-gradient(greenyellow,yellow);
+}
+.reset{
+    height: 50px;
+    width: 200px;
+    font-size: 1.4em;
+    border-radius: 10px;
+    background: linear-gradient(greenyellow,yellow);
+}
